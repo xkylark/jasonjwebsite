@@ -1,0 +1,221 @@
+/***** BASE STYLES *****/
+body {font-family: 'khand';  }
+#about, #work, #contact, {
+  height: 600px;
+
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 850px;
+  width: 100%;
+  background: url(../img/ash-edmonds-435665.jpg);
+  background-size: cover;
+
+}
+header h1 {
+  font-family: "Rock Salt";
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: normal;
+}
+nav {
+float: right;
+font-family: 'khand';
+
+}
+nav ul li {
+  display: inline-block;
+
+}
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: "khand";
+}
+header h2 {
+  font-size: 45px;
+  font-family: 'Passion One';
+  color: #ffffff;
+  float: left;
+  padding-top: 50px;
+  line-height: 80px;
+
+}
+/***** ABOUT *****/
+
+#about .full-width {
+  height: 650px;
+  background-color: #ffffff;
+
+  }
+  #about h2 {
+    font-family: 'orbitron';
+    font-size: 36px;
+    padding-top: 40px;
+
+  }
+  #about p {
+    font-family: "khand";
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+img {
+  float: right;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+
+}
+
+/***** My Skills *****/
+
+#skills .full-width {
+  height: 750px;
+  text-align: center;
+  background-color: #5E1FA3;
+  background-size: cover;
+  width: auto;
+  color: #FFFFFF;
+  padding: 0 0 0 115px;
+
+
+}
+#skills h2 {
+  font-family: "orbitron";
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: left;
+
+
+}
+ #skills h3 {
+  font-family: "Passion one";
+  font-size: 33px;
+  text-align: center;
+
+
+}
+
+
+#skills p {
+  font-family: "khand";
+  line-height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+/**** Work ****/
+
+  #work .full-width {
+  height: 750px;
+  text-align: center;
+
+
+}
+  #work h2 {
+  font-family: "orbitron";
+  font-size: 36px;
+  padding-top: 40px;
+  text-align: left;
+
+}
+
+#work h3 {
+  font-family: "Passion one";
+  font-size: 33px;
+
+
+}
+#work p {
+  font-family: "khand";
+  line-height: 30px;
+
+
+}
+.rogue {
+  height: 220px;
+
+}
+.icon {
+ width: 360px;
+ height: 250px;
+
+
+}
+
+  /**** FOOTER ****/
+
+
+#contact .full-width {
+height: 650px;
+text-align: center;
+background-image: url(../img/anas-alshanti-169265.jpg);
+background-size: cover;
+width: auto;
+
+
+}
+
+#contact h2 {
+  font-family: "orbitron";
+  color: #ffffff;
+  font-size: 36px;
+  padding-top: 40px;
+  text-align: left;
+
+}
+#contact h3 {
+  font-family: "Passion one";
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: overline;
+  padding-top: 50px;
+  letter-spacing: 20px;
+  word-spacing: 20px;
+  font-size: 25px;
+
+}
+#contact ul li {
+  font-family: "khand";
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding-top: 30px;
+
+
+}
+#mediaicons li {
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+
+
+}
